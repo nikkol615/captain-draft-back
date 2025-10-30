@@ -7,7 +7,7 @@ RUN curl -sSL https://install.python-poetry.org | python3 -
 
 WORKDIR /app
 
-COPY pyproject.toml poetry.lock README.md ./
+COPY pyproject.toml poetry.lock main.py ./
 COPY database ./database
 COPY models ./models
 COPY config ./config
