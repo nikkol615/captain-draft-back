@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "captain-draft-back"
+version = "0.1.0"
+description = ""
+authors = ["nikkol615 <nik.kolobanov@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.44"
+fastapi = "^0.120.2"
+psycopg2 = "^2.9.11"
+asyncio = "^4.0.0"
+uvicorn = "^0.38.0"
+requests = "^2.32.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
